@@ -1,0 +1,229 @@
+root - INFO - Starting app. @9:56, 3/12/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Add: complete (5)
+root - INFO - Add: adding new contact with ID 6 (Iamby Folaji)
+root - INFO - Add: complete (6)
+root - INFO - Add: adding new contact with ID 7 (Oamby Folaji)
+root - INFO - Add: complete (7)
+root - INFO - Add: adding new contact with ID 8 (Famby Folaji)
+root - INFO - Add: complete (8)
+root - INFO - Add: adding new contact with ID 9 (Samby Folaji)
+root - INFO - Add: complete (9)
+root - INFO - Add: adding new contact with ID 10 (Camby Folaji)
+root - INFO - Add: complete (10)
+root - INFO - input: exit
+root - INFO - End session. @9:56, 3/12/5/2022
+root - INFO - Starting app. @9:57, 3/12/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Add: complete (5)
+root - INFO - Add: adding new contact with ID 6 (Iamby Folaji)
+root - INFO - Add: complete (6)
+root - INFO - Add: adding new contact with ID 7 (Oamby Folaji)
+root - INFO - Add: complete (7)
+root - INFO - Add: adding new contact with ID 8 (Famby Folaji)
+root - INFO - Add: complete (8)
+root - INFO - Add: adding new contact with ID 9 (Samby Folaji)
+root - INFO - Add: complete (9)
+root - INFO - Add: adding new contact with ID 10 (Camby Folaji)
+root - INFO - Add: complete (10)
+root - INFO - input: list
+root - INFO - input: exit
+root - INFO - Starting app. @9:59, 3/12/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Add: complete (5)
+root - INFO - Add: adding new contact with ID 6 (Iamby Folaji)
+root - INFO - Add: complete (6)
+root - INFO - Add: adding new contact with ID 7 (Oamby Folaji)
+root - INFO - Add: complete (7)
+root - INFO - Add: adding new contact with ID 8 (Famby Folaji)
+root - INFO - Add: complete (8)
+root - INFO - Add: adding new contact with ID 9 (Samby Folaji)
+root - INFO - Add: complete (9)
+root - INFO - Add: adding new contact with ID 10 (Camby Folaji)
+root - INFO - Add: complete (10)
+root - INFO - input: list
+root - INFO - input: exit
+root - INFO - End session. @9:59, 3/12/5/2022
+root - INFO - Starting app. @9:59, 3/12/5/2022
+root - INFO - input: load file = contacts.csv;
+root - CRITICAL - load file = contacts.csv;
+root - INFO - End session. @10:0, 3/12/5/2022
+root - INFO - Starting app. @10:0, 3/12/5/2022
+root - INFO - End session. @10:0, 3/12/5/2022
+root - INFO - Starting app. @10:0, 3/12/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Add: complete (5)
+root - INFO - Add: adding new contact with ID 6 (Iamby Folaji)
+root - INFO - Add: complete (6)
+root - INFO - Add: adding new contact with ID 7 (Oamby Folaji)
+root - INFO - Add: complete (7)
+root - INFO - Add: adding new contact with ID 8 (Famby Folaji)
+root - INFO - Add: complete (8)
+root - INFO - Add: adding new contact with ID 9 (Samby Folaji)
+root - INFO - Add: complete (9)
+root - INFO - Add: adding new contact with ID 10 (Camby Folaji)
+root - INFO - Add: complete (10)
+root - INFO - input: list
+root - INFO - input: list
+root - INFO - input: exit
+root - INFO - End session. @10:0, 3/12/5/2022
+root - INFO - Starting app. @20:29, 4/13/5/2022
+root - INFO - input: list
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Add: complete (5)
+root - INFO - Add: adding new contact with ID 6 (Iamby Folaji)
+root - INFO - Add: complete (6)
+root - INFO - Add: adding new contact with ID 7 (Oamby Folaji)
+root - INFO - Add: complete (7)
+root - INFO - Add: adding new contact with ID 8 (Famby Folaji)
+root - INFO - Add: complete (8)
+root - INFO - Add: adding new contact with ID 9 (Samby Folaji)
+root - INFO - Add: complete (9)
+root - INFO - Add: adding new contact with ID 10 (Camby Folaji)
+root - INFO - Add: complete (10)
+root - INFO - input: list
+root - INFO - End session. @20:30, 4/13/5/2022
+root - INFO - Starting app. @20:32, 4/13/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Starting app. @20:33, 4/13/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Starting app. @20:33, 4/13/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Starting app. @20:35, 4/13/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Bamby Folaji)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Aamby Folaji)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Famby Folaji)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Bamby Folaji)
+root - INFO - Add: complete (5)
+root - INFO - Add: adding new contact with ID 6 (Iamby Folaji)
+root - INFO - Add: complete (6)
+root - INFO - Add: adding new contact with ID 7 (Oamby Folaji)
+root - INFO - Add: complete (7)
+root - INFO - Add: adding new contact with ID 8 (Famby Folaji)
+root - INFO - Add: complete (8)
+root - INFO - Add: adding new contact with ID 9 (Samby Folaji)
+root - INFO - Add: complete (9)
+root - INFO - Add: adding new contact with ID 10 (Camby Folaji)
+root - INFO - Add: complete (10)
+root - INFO - input: list
+root - INFO - input: add fn=contacts;ln=store;
+root - INFO - Add: adding new contact with ID 11 (contacts store)
+root - INFO - Add: complete (11)
+root - INFO - input: list
+root - INFO - End session. @20:35, 4/13/5/2022
+root - INFO - Starting app. @20:36, 4/13/5/2022
+root - INFO - End session. @20:36, 4/13/5/2022
+root - INFO - Starting app. @20:36, 4/13/5/2022
+root - INFO - End session. @20:37, 4/13/5/2022
+root - INFO - Starting app. @20:37, 4/13/5/2022
+root - INFO - End session. @20:37, 4/13/5/2022
+root - INFO - Starting app. @20:37, 4/13/5/2022
+root - INFO - End session. @20:37, 4/13/5/2022
+root - INFO - Starting app. @20:37, 4/13/5/2022
+root - INFO - End session. @20:37, 4/13/5/2022
+root - INFO - Starting app. @20:37, 4/13/5/2022
+root - INFO - End session. @20:37, 4/13/5/2022
+root - INFO - Starting app. @20:45, 4/13/5/2022
+root - INFO - input: load file=contacts.csv
+root - CRITICAL - load file=contacts.csv
+root - INFO - End session. @20:45, 4/13/5/2022
+root - INFO - Starting app. @20:45, 4/13/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @20:47, 4/13/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @20:49, 4/13/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact with ID 1 (David Okeke)
+root - INFO - Add: complete (1)
+root - INFO - Add: adding new contact with ID 2 (Angelo Michael)
+root - INFO - Add: complete (2)
+root - INFO - Add: adding new contact with ID 3 (Dusty Sammy)
+root - INFO - Add: complete (3)
+root - INFO - Add: adding new contact with ID 4 (Scary Bruce)
+root - INFO - Add: complete (4)
+root - INFO - Add: adding new contact with ID 5 (Dancing Manuel)
+root - INFO - Add: complete (5)
+root - INFO - Add: adding new contact with ID 6 (Speeding Walker)
+root - INFO - Add: complete (6)
+root - INFO - Add: adding new contact with ID 7 (Dynamic Cancelo)
+root - INFO - Add: complete (7)
+root - INFO - Add: adding new contact with ID 8 (Consistent Dias)
+root - INFO - Add: complete (8)
+root - INFO - Add: adding new contact with ID 9 (Generational Haaland)
+root - INFO - Add: complete (9)
+root - INFO - Add: adding new contact with ID 10 (Magical Aguero)
+root - INFO - Add: complete (10)
+root - INFO - input: list
+root - INFO - End session. @20:51, 4/13/5/2022

@@ -1,4 +1,4 @@
-import utils
+from src.ContactManager_DSA import utils
 
 
 class BSTNode:
@@ -26,7 +26,7 @@ class BST:
 
     def __init__(self, root=None):
         self.root = root
-        self._count = 0
+        self.count = 0
 
     def __iter__(self):
         return  self
@@ -40,7 +40,7 @@ class BST:
             self.root = BSTNode(value)
         else:
             self.add_to(self.root, value)
-        self._count = self._count + 1
+        self.count = self.count + 1
 
     def add_to(self, node, value):
         if value.compare_to(node.data) < 0:
@@ -62,7 +62,7 @@ class BST:
         current, parent = self.find_with_parent(value)
         if not current:
             return False
-        self._count = self._count - 1
+        self.count = self.count - 1
 
         if not current.right:
             if not parent:

@@ -1,10 +1,10 @@
 import re
 import logging
-from Commands import command_factory
-from Commands.command_factory import CommandFactory
-from DataStructures.stack import Stack
+from src.ContactManager_DSA.Commands.command_factory import CommandFactory
+from src.ContactManager_DSA.Commands import command_factory
+from src.ContactManager_DSA.DataStructures.stack import Stack
 
-logging.basicConfig(filename=r'./Logs/log.txt', encoding="utf-8", filemode='a', format='%(name)s - %(levelname)s - %(message)s',
+logging.basicConfig(filename=r'../../Logs/log.txt', encoding="utf-8", filemode='a', format='%(name)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG)
 
 
@@ -53,7 +53,7 @@ class Repl:
         quit_seen = False
         while not quit_seen:
             cmd = self.get_next_cmd()
-            if isinstance(cmd, command_factory.Quit):
+            if isinstance(cmd, command_factory.Quit) or cmd is None:
                 quit_seen = True
             elif isinstance(cmd, command_factory.Load) or isinstance(cmd, command_factory.List):
                 cmd.execute()

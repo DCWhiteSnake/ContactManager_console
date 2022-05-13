@@ -1,4 +1,4 @@
-from utils import comparator
+from src.ContactManager_DSA.utils import comparator
 
 
 class Contact:

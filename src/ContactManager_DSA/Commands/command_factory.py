@@ -1,5 +1,5 @@
-from Models.contact import Contact
-from DataStructures.doublylinkedlist import Dll
+from src.ContactManager_DSA.Models.contact import Contact
+from src.ContactManager_DSA.DataStructures.doublylinkedlist import Dll
 
 
 class ContactFieldFilter:
@@ -82,7 +82,7 @@ class Load(Command):
 
     def execute(self):
         try:
-            with open(self._filename, mode="rt", encoding="utf-8") as csv_file:
+            with open(file=self._filename, mode="rt", encoding="utf-8") as csv_file:
 
                 raw_contacts_from_file = [contact.split(',') for contact in [x for x in csv_file]]
                 for raw_contact in raw_contacts_from_file:

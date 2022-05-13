@@ -1,4 +1,4 @@
-from DataStructures.doublylinkedlist import Dll
+from src.ContactManager_DSA.DataStructures.doublylinkedlist import Dll
 
 
 class Dequeue(Dll):

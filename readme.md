@@ -2,13 +2,15 @@
 A console contact-manager application implementing some datastructures and oop concepts.
 
 ## Tech Stack
+
 - **Core Python** - python 3.6+
 
 ## Main Files: Project Structure
 
-```sh
 
-│   app.py  *** Entry point
+```sh
+ContactManager
+│   __main__.py  *** Entry point
 │   icon.png
 │   log1.txt
 │   readme.md
@@ -32,6 +34,8 @@ A console contact-manager application implementing some datastructures and oop c
 ![list and add](demo_1.gif)
 
 ## Local Running
-
 ─ Make sure you have the correct version of python(3.6+)
 ─ run app.py
+
+## Basic Commands
+l, list = list all contacts.com

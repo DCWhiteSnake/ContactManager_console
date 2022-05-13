@@ -1,4 +1,4 @@
-from DataStructures.dequeue import Dequeue
+from src.ContactManager_DSA.DataStructures.dequeue import Dequeue
 
 
 class Queue(Dequeue):

@@ -1,5 +1,5 @@
-from DataStructures.binarysearchtree import BST
-from Models.contact import Contact
+from src.ContactManager_DSA.DataStructures.binarysearchtree import BST
+from src.ContactManager_DSA.Models.contact import Contact
 import logging
 
 logging.basicConfig(filename=r'./Logs/log.txt', filemode='a', format='%(name)s - %(levelname)s - %(message)s',
