@@ -16,8 +16,6 @@ class Dequeue(Dll):
             return value
         raise IOError
 
-
-
     def dequeue_tail(self):
         value = self.get_tail()
         if (value):

@@ -20,8 +20,8 @@ class CommandResult:
 
 
 class NonUndoCommandResult(CommandResult):
-    def __init__(self,command, result):
-        super(NonUndoCommandResult, self).__init__(command,result)
+    def __init__(self, command, result):
+        super(NonUndoCommandResult, self).__init__(command, result)
 
     def get_undo_command(self):
         pass
@@ -82,20 +82,20 @@ class Load(Command):
 
     def execute(self):
         try:
-            with open(file=self._filename, mode="rt", encoding="utf-8") as csv_file:
+            with open(file=f"..\\..\\{self._filename}", mode="rt", encoding="utf-8") as csv_file:
 
                 raw_contacts_from_file = [contact.split(',') for contact in [x for x in csv_file]]
                 for raw_contact in raw_contacts_from_file:
                     fn, ln, street, city, state, code, id = raw_contact
-                    contact = Contact(fn, ln, street, city, state,
-                                      code, int(id.strip()))
+                    contact = Contact.create_with_identification(fn, ln, street, city, state,
+                                                                 code, int(id.strip()))
+
                     self._storage.add(contact)
                 print("Contacts successfully added, enter 'list' to view them")
         except TypeError:
             raise
         except FileNotFoundError:
             print("The file doesn't exit")
-
 
 
 class Quit(Command):
@@ -105,40 +105,42 @@ class Quit(Command):
 
 class Add(Command):
     def __init__(self, store, fields):
-        self._store = store
-        self._fn = "Nil"
-        self._ln = "Nil"
-        self._street = "Nil"
-        self._cty = "Nil"
-        self._state = "Nil"
-        self._code = "Nil"
-        self._fields = fields
+
+        self.store = store
+        self.firstname = "Nil"
+        self.lastname = "Nil"
+        self.street = "Nil"
+        self.city = "Nil"
+        self.state = "Nil"
+        self.code = "Nil"
+        self.fields = fields
+        super().__init__()
 
     def execute(self):
-        if self.map_input_to_contact(self._fields):
-            contact_to_add = Contact(self._fn, self._ln, self._street, self._cty, self._state,
-                                     self._code)
+        if self.map_input_to_contact(self.fields):
+            contact_to_add = Contact.create(self.firstname, self.lastname, self.street, self.city, self.state,
+                                            self.code)
         else:
             raise ValueError
-        self._store.add(contact_to_add)
-        return AddCommandResult(self, self._store, [contact_to_add])
+        self.store.add(contact_to_add)
+        return AddCommandResult(self, self.store, [contact_to_add])
 
     def map_input_to_contact(self, fields):
         return_val = True
         try:
             for field, value in fields.items():
                 if field in ["fn", "firstname", "FirstName"]:
-                    self._fn = value
+                    self.firstname = value
                 elif field in ["ln", "lastname", "LastName"]:
-                    self._ln = value
+                    self.lastname = value
                 elif field in ["street", "str"]:
-                    self._streets = value
+                    self.street = value
                 elif field in ["cty, city"]:
-                    self._cty = value
+                    self.city = value
                 elif field in ["state", "territory"]:
-                    self._state = value
+                    self.state = value
                 elif field in ["code, zip, zipcode"]:
-                    self._code = value
+                    self.code = value
         except:
             return_val = False
         return return_val
@@ -170,8 +172,9 @@ class DirectRemove(NonUndoCommandResult):
 
         return [removed, self._verb]
 
+
 class Remove(Command):
-    def __init__(self, store,fields):
+    def __init__(self, store, fields):
         self._store = store
         self._id = fields["identity"]
 

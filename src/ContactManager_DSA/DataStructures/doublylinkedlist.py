@@ -12,9 +12,10 @@ class DllNode:
         return self.prev
 
     def getdata(self):
-        return  self.data
+        return self.data
 
     getdat = property(getdata)
+
 
 class Dll:
     """
@@ -103,7 +104,7 @@ class Dll:
             self.head = None
         else:
             self.tail.prev.nxt = None
-            self.tail = self.tail.prev()
+            self.tail = self.tail.prev
 
             if self.length == 0:
                 self.tail = None
@@ -127,28 +128,21 @@ class Dll:
         self.tail = None
         self.length = 0
 
-    def find(self, contact):
-        currdata = self.head.getdata()
+    def find(self, item):
+        currdata = self.head.data
         curr = self.head
         while curr:
-            if currdata == contact:
+            if currdata == item:
                 return curr
             curr = curr.next()
             currdata = curr.getdata()
         return None
 
-
     def __iter__(self):
-        return self
-
-    def __next__(self):
-        if not self._curr:
-            self._curr = self.head
-            raise StopIteration
-        else:
-            item = self._curr.data
-            self._curr = self._curr.nxt
-            return item
+        cursor = self.head
+        while cursor:
+            yield cursor.data
+            cursor = cursor.nxt
 
     def __reversed__(self):
         current = self.tail
@@ -160,5 +154,14 @@ class Dll:
         return self.length
 
     def __contains__(self, item):
-        return not self.find(item) == None
+        return not self.find(item) is None
 
+
+if __name__ == "__main__":
+    ll = Dll()
+    ll.add("Yebo")
+    ll.add("makeale")
+    ll.add("wife")
+
+    for x in ll:
+        print(x)

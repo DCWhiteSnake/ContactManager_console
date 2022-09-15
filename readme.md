@@ -1,5 +1,5 @@
 #![ID Keeper](icon.png)
-A console contact-manager application implementing some datastructures and oop concepts.
+A console contact-manager application implementing some datastructures and oop concepts. It can load contacts from a csv file and supports undo actions too. Enjoy!
 
 ## Tech Stack
 
@@ -30,12 +30,20 @@ ContactManager
 │   │   contactstore.py 
 
 ```
-##Demos
+
+## Demo
+
 ![list and add](demo_1.gif)
 
 ## Local Running
+
 ─ Make sure you have the correct version of python(3.6+)
 ─ run app.py
 
-## Basic Commands
-l, list = list all contacts.com
+## Commands
+
+─ load filename=filename.csv; = loads the file from csv
+─ l, list = list all available contacts
+─ a,add [fn=firstname;ln=lastname;etc] = adds a contact manually
+─ exit = closes the app.
+─ undo = cancels the last action.

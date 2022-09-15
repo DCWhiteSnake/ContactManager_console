@@ -227,3 +227,220 @@ root - INFO - Add: adding new contact with ID 10 (Magical Aguero)
 root - INFO - Add: complete (10)
 root - INFO - input: list
 root - INFO - End session. @20:51, 4/13/5/2022
+root - INFO - Starting app. @9:55, 5/14/5/2022
+root - INFO - End session. @9:55, 5/14/5/2022
+root - INFO - Starting app. @17:8, 5/14/5/2022
+root - INFO - End session. @17:8, 5/14/5/2022
+root - INFO - Starting app. @13:43, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @13:44, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @13:46, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @13:51, 2/18/5/2022
+root - INFO - Starting app. @13:52, 2/18/5/2022
+root - INFO - End session. @13:52, 2/18/5/2022
+root - INFO - Starting app. @13:53, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @13:54, 2/18/5/2022
+root - INFO - End session. @13:55, 2/18/5/2022
+root - INFO - Starting app. @13:55, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @13:58, 2/18/5/2022
+root - INFO - Starting app. @13:58, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @14:10, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @14:11, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @14:13, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @14:15, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @18:40, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @18:42, 2/18/5/2022
+root - INFO - Starting app. @18:42, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @18:44, 2/18/5/2022
+root - INFO - Starting app. @18:48, 2/18/5/2022
+root - INFO - input: logging.info(f"Add: adding new contact: {contact}");
+root - INFO - input:                 self._contacts.add(contact)
+root - INFO - End session. @18:48, 2/18/5/2022
+root - INFO - Starting app. @18:48, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: Contact(firstname='David', lastname='Okeke', street='Bubble Street', city='Underworld', state='Space', code='1223', identification=1)
+root - INFO - Starting app. @18:49, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: Contact(firstname='David', lastname='Okeke', street='Bubble Street', city='Underworld', state='Space', code='1223', identification=1)
+root - INFO - Add: adding new contact: Contact(firstname='Angelo', lastname='Michael', street='Room Street', city='Downtown', state='China', code='865', identification=2)
+root - INFO - Starting app. @18:52, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: Contact(firstname='David', lastname='Okeke', street='Bubble Street', city='Underworld', state='Space', code='1223', identification=1)
+root - INFO - Add: adding new contact: Contact(firstname='Angelo', lastname='Michael', street='Room Street', city='Downtown', state='China', code='865', identification=2)
+root - INFO - Add: adding new contact: Contact(firstname='Dusty', lastname='Sammy', street='Tree Street', city='Location', state='Nigeria', code='124', identification=3)
+root - INFO - Add: adding new contact: Contact(firstname='Scary', lastname='Bruce', street='Door Street', city='DC', state='America', code='78', identification=4)
+root - INFO - Add: adding new contact: Contact(firstname='Dancing', lastname='Manuel', street='Hive Street', city='Bayern', state='BEE', code='112', identification=5)
+root - INFO - Starting app. @18:53, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: Contact(firstname='David', lastname='Okeke', street='Bubble Street', city='Underworld', state='Space', code='1223', identification=1)
+root - INFO - Add: adding new contact: Contact(firstname='Angelo', lastname='Michael', street='Room Street', city='Downtown', state='China', code='865', identification=2)
+root - INFO - Add: adding new contact: Contact(firstname='Dusty', lastname='Sammy', street='Tree Street', city='Location', state='Nigeria', code='124', identification=3)
+root - INFO - Add: adding new contact: Contact(firstname='Scary', lastname='Bruce', street='Door Street', city='DC', state='America', code='78', identification=4)
+root - INFO - Add: adding new contact: Contact(firstname='Dancing', lastname='Manuel', street='Hive Street', city='Bayern', state='BEE', code='112', identification=5)
+root - INFO - Add: adding new contact: Contact(firstname='Speeding', lastname='Walker', street='Sticks Street', city='Mancity', state='UK', code='1789', identification=6)
+root - INFO - Add: adding new contact: Contact(firstname='Dynamic', lastname='Cancelo', street='Heaven Street', city='Mancity', state='UK', code='164', identification=7)
+root - INFO - Add: adding new contact: Contact(firstname='Consistent', lastname='Dias', street='Date Street', city='Mancity', state='UK', code='6746', identification=8)
+root - INFO - Add: adding new contact: Contact(firstname='Generational', lastname='Haaland', street='Dine Street', city='Mancity', state='UK', code='1323', identification=9)
+root - INFO - Add: adding new contact: Contact(firstname='Magical', lastname='Aguero', street='Dine Street', city='Retired', state='UK', code='1323', identification=10)
+root - INFO - input: lis
+root - INFO - input: list
+root - INFO - End session. @21:55, 2/18/5/2022
+root - INFO - Starting app. @21:57, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112
+root - INFO - Add: adding new contact: Speeding,Walker,Sticks Street,Mancity,UK, 1789
+root - INFO - Add: adding new contact: Dynamic,Cancelo,Heaven Street,Mancity,UK, 164
+root - INFO - Add: adding new contact: Consistent,Dias,Date Street,Mancity,UK, 6746
+root - INFO - Add: adding new contact: Generational,Haaland,Dine Street,Mancity,UK, 1323
+root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 1323
+root - INFO - input: list
+root - INFO - End session. @21:58, 2/18/5/2022
+root - INFO - Starting app. @21:58, 2/18/5/2022
+root - INFO - input: add fn=David;ln=Okeke
+root - INFO - Starting app. @21:58, 2/18/5/2022
+root - INFO - input: add fn=David;ln=Okeke;
+root - INFO - Starting app. @22:2, 2/18/5/2022
+root - INFO - input: add fn=David;ln=Okeke
+root - INFO - Starting app. @22:4, 2/18/5/2022
+root - INFO - input: add fn=David;ln=Okeke;
+root - INFO - Add: adding new contact: David,Okeke,Nil,Nil,Nil, Nil
+root - INFO - input: list
+root - INFO - End session. @22:5, 2/18/5/2022
+root - INFO - Starting app. @22:5, 2/18/5/2022
+root - INFO - input: add fn=David;ln=Okeke;
+root - INFO - Add: adding new contact: David,Okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: list
+root - INFO - End session. @22:5, 2/18/5/2022
+root - INFO - Starting app. @22:7, 2/18/5/2022
+root - INFO - End session. @22:7, 2/18/5/2022
+root - INFO - Starting app. @22:9, 2/18/5/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Starting app. @13:40, 2/1/6/2022
+root - INFO - input: list
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @13:41, 2/1/6/2022
+root - INFO - Starting app. @13:41, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @13:42, 2/1/6/2022
+root - INFO - Starting app. @13:42, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @13:43, 2/1/6/2022
+root - INFO - Starting app. @13:43, 2/1/6/2022
+root - INFO - End session. @13:43, 2/1/6/2022
+root - INFO - Starting app. @13:44, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223, 1
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865, 2
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124, 3
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78, 4
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112, 5
+root - INFO - Add: adding new contact: Speeding,Walker,Sticks Street,Mancity,UK, 1789, 6
+root - INFO - Add: adding new contact: Dynamic,Cancelo,Heaven Street,Mancity,UK, 164, 7
+root - INFO - Add: adding new contact: Consistent,Dias,Date Street,Mancity,UK, 6746, 8
+root - INFO - Add: adding new contact: Generational,Haaland,Dine Street,Mancity,UK, 1323, 9
+root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 1323, 10
+root - INFO - input: list
+root - INFO - End session. @13:49, 2/1/6/2022
+root - INFO - Starting app. @14:2, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223, 1
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865, 2
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124, 3
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78, 4
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112, 5
+root - INFO - Starting app. @14:3, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223, 1
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865, 2
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124, 3
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78, 4
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112, 5
+root - INFO - Add: adding new contact: Speeding,Walker,Sticks Street,Mancity,UK, 1789, 6
+root - INFO - Add: adding new contact: Dynamic,Cancelo,Heaven Street,Mancity,UK, 164, 7
+root - INFO - Add: adding new contact: Consistent,Dias,Date Street,Mancity,UK, 6746, 8
+root - INFO - Add: adding new contact: Generational,Haaland,Dine Street,Mancity,UK, 1323, 9
+root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 1323, 10
+root - INFO - input: list
+root - INFO - End session. @22:5, 2/1/6/2022
+root - INFO - Starting app. @23:50, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223, 1
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865, 2
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124, 3
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78, 4
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112, 5
+root - INFO - Add: adding new contact: Speeding,Walker,Sticks Street,Mancity,UK, 1789, 6
+root - INFO - Add: adding new contact: Dynamic,Cancelo,Heaven Street,Mancity,UK, 164, 7
+root - INFO - Add: adding new contact: Consistent,Dias,Date Street,Mancity,UK, 6746, 8
+root - INFO - Add: adding new contact: Generational,Haaland,Dine Street,Mancity,UK, 1323, 9
+root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 1323, 10
+root - INFO - input: list
+root - INFO - input: add fn=jimi;ln=ade;
+root - INFO - Add: adding new contact: jimi,ade,Nil,Nil,Nil, Nil, 11
+root - INFO - input: list
+root - INFO - input: list
+root - INFO - input: list
+root - INFO - input: list
+root - INFO - End session. @23:50, 2/1/6/2022
+root - INFO - Starting app. @23:51, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - End session. @23:52, 2/1/6/2022
+root - INFO - Starting app. @23:52, 2/1/6/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223, 1
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865, 2
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124, 3
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78, 4
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112, 5
+root - INFO - Add: adding new contact: Speeding,Walker,Sticks Street,Mancity,UK, 1789, 6
+root - INFO - Add: adding new contact: Dynamic,Cancelo,Heaven Street,Mancity,UK, 164, 7
+root - INFO - Add: adding new contact: Consistent,Dias,Date Street,Mancity,UK, 6746, 8
+root - INFO - Add: adding new contact: Generational,Haaland,Dine Street,Mancity,UK, 1323, 9
+root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 1323, 10
+root - INFO - input: add fn=David;ln=Jimmie;
+root - INFO - Add: adding new contact: David,Jimmie,Nil,Nil,Nil, Nil, 11
+root - INFO - input: list
+root - INFO - End session. @23:56, 2/1/6/2022
+root - INFO - Starting app. @12:19, 3/15/9/2022
+root - INFO - input: list
+root - INFO - End session. @12:19, 3/15/9/2022
+root - INFO - Starting app. @12:19, 3/15/9/2022
+root - INFO - End session. @12:34, 3/15/9/2022
+root - INFO - Starting app. @12:34, 3/15/9/2022
+root - INFO - Starting app. @12:34, 3/15/9/2022
+root - INFO - input: list
+root - INFO - End session. @12:41, 3/15/9/2022
+root - INFO - Starting app. @12:41, 3/15/9/2022
+root - INFO - input: load
+root - CRITICAL - load
+root - INFO - End session. @12:42, 3/15/9/2022
+root - INFO - Starting app. @12:42, 3/15/9/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223, 1
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865, 2
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124, 3
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78, 4
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112, 5
+root - INFO - Add: adding new contact: Speeding,Walker,Sticks Street,Mancity,UK, 1789, 6
+root - INFO - Add: adding new contact: Dynamic,Cancelo,Heaven Street,Mancity,UK, 164, 7
+root - INFO - Add: adding new contact: Consistent,Dias,Date Street,Mancity,UK, 6746, 8
+root - INFO - Add: adding new contact: Generational,Haaland,Dine Street,Mancity,UK, 1323, 9
+root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 1323, 10
+root - INFO - input: list
+root - INFO - input: exit
+root - INFO - End session. @12:42, 3/15/9/2022

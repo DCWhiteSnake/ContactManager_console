@@ -20,25 +20,25 @@ class ContactStore:
         if not isinstance(contact, Contact):
             logging.info("Invalid Contact, time elapsed = 0.005s")
         else:
-            if not contact._identification:
-                contact._identification = self._nextId
+            if not contact.identification:
+                contact.identification = self._nextId
                 self._nextId = self._nextId + 1
-                self._nextId = max(contact._identification, self._nextId)
+                self._nextId = max(contact.identification, self._nextId)
             else:
-                self._nextId = contact._identification + 1
+                self._nextId = contact.identification + 1
         try:
             cont = Contact(contact._fn, contact._ln, contact._street, contact._cty, contact._state,
-                           contact._code, contact._identification)
+                           contact._code, contact.identification)
         except:
             print("Bad Input, invalid contact")
             logging.info("Invalid Contact, time elapsed = 0.005s")
 
-        logging.info(f"Add: adding new contact with ID {cont._identification} ({cont._fn} {cont._ln})");
+        logging.info(f"Add: adding new contact with ID {cont.identification} ({cont.fn} {cont.ln})");
         self._contacts.add(cont)
 
-        logging.info(f"Add: complete ({cont._identification})", )
+        logging.info(f"Add: complete ({cont.identification})", )
 
-        return cont._identification
+        return cont.identification
 
     def add_contacts(self, contacts):
         for contact in contacts:

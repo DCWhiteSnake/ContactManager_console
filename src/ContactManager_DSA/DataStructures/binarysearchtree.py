@@ -128,9 +128,9 @@ class BST:
     # Traversals
     # Traversal - For identical copying - Preorder
     def preorder_traversal(self, action):
-        self.preorder_traversal(action, self.root)
+        self.preorder_traversal_main(action, self.root)
 
-    def preorder_traversal(self, action, node):
+    def preorder_traversal_main(self, action, node):
         if node:
             action(node.data)
             self.preorder_traversal(action, node.left)
@@ -138,9 +138,9 @@ class BST:
 
     # Traversal - For Sorting - Inorder
     def inorder_traversal(self, action):
-        self.inorder_traversal(action, self.root)
+        self.inorder_traversal_helper(action, self.root)
 
-    def inorder_traversal(self, action, node):
+    def inorder_traversal_helper(self, action, node):
         if node:
             action(node.data)
             self.inorder_traversal(action, node.left)
@@ -150,7 +150,7 @@ class BST:
     def postorder_traversal(self, action):
         self.postorder_traversal(action, self.root)
 
-    def postorder_traversal(self, action, node):
+    def postorder_traversal_helper(self, action, node):
         if node:
             action(node.data)
             self.preorder_traversal(action, node.left)
