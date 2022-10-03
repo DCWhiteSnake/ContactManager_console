@@ -7,6 +7,8 @@ from src.ContactManager_DSA.DataStructures.stack import Stack
 logging.basicConfig(filename=r'../../Logs/log.txt', encoding="utf-8", filemode='a', format='%(name)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG)
 
+def print_item(result):
+    print(result[1], " ", result[0][0])
 
 def print_collection(result):
     """
@@ -57,6 +59,7 @@ class Repl:
                 quit_seen = True
             elif isinstance(cmd, command_factory.Load) or isinstance(cmd, command_factory.List):
                 cmd.execute()
+            # Else if the command is an instance of remove or add
             else:
                 command_result = cmd.execute()
                 self._undoable_commands.push(command_result)
@@ -96,8 +99,15 @@ class Repl:
                 elif self._verb in ["load", "l"]:
                     return self._factory.load(self._fields)
                 elif self._verb in ["undo", "u"]:
-                    print_collection([self.undo_last_action()])
-                    self.run()
+                    #todo
+                    # this should be a factory method.
+                    # ie., return self._factory.undo()
+                    # check if there's actually anything to undo.
+                    if self._undoable_commands.length > 0:
+                        print_item(self.undo_last_action())
+                        self.run()
+                    else:
+                        print("Nothing to undo")
                 else:
                     print("Unknown command, please enter a valid command")
                     self.get_next_cmd()
@@ -108,12 +118,12 @@ class Repl:
     def undo_last_action(self):
         """
         Description:
-        Performs a roll-back of an undoable action
+        Performs a roll-back of an undoable actions i.e., add and remove
 
         :return: A description of what was undone
         """
-        x = self._undoable_commands.pop()[1].getdat.get_undo_command().execute()
-        return x
+        undo_action = self._undoable_commands.pop().getdat.get_undo_command()
+        return undo_action.execute()
 
     def parse_line(self, usr_input):
         """

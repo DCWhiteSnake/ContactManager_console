@@ -1,15 +1,16 @@
 from src.ContactManager_DSA.Models.contact import Contact
 from src.ContactManager_DSA.DataStructures.doublylinkedlist import Dll
 
-
+"""
 class ContactFieldFilter:
     def __init__(self):
         pass
+"""
 
 
 class CommandResult:
     def __init__(self, command, result):
-        if isinstance(command, Command) and (isinstance(result, Dll) or isinstance(result, list)):
+        if isinstance(command, Command) and (isinstance(result, (Dll, list))):
             self._command = command
             self._result = result
         else:
@@ -123,7 +124,7 @@ class Add(Command):
         else:
             raise ValueError
         self.store.add(contact_to_add)
-        return AddCommandResult(self, self.store, [contact_to_add])
+        return AddCommandResult(self, self.store, contact_to_add)
 
     def map_input_to_contact(self, fields):
         return_val = True
@@ -147,30 +148,14 @@ class Add(Command):
 
 
 class AddCommandResult(CommandResult):
-    def __init__(self, command, store, contacts):
+    def __init__(self, command, store, contact):
         self._store = store
         self._command = command
-        self._contacts = contacts
+        self._contact = contact
         self._can_undo = True
 
     def get_undo_command(self):
-        return DirectRemove(self._store, self._contacts)
-
-
-class DirectRemove(NonUndoCommandResult):
-    def __init__(self, store, contacts):
-        self._store = store
-        self._contacts = contacts
-        self._verb = "remove"
-
-    def execute(self):
-        removed = []
-        for contact in self._contacts:
-            removed_contact = self._store.remove(contact)
-            if removed_contact:
-                removed.append(removed_contact)
-
-        return [removed, self._verb]
+        return DirectRemove(self._store, self._contact)
 
 
 class Remove(Command):
@@ -180,9 +165,8 @@ class Remove(Command):
 
     def execute(self):
         contact_to_remove = self._store.search(self._id)
-        self._contacts = [contact_to_remove]
-        removed_contact = self._store.remove(contact_to_remove)
-        return RemoveCommandResult(self, self._store, [removed_contact], self._contacts)
+        removed_contact = self._store.remove([contact_to_remove])
+        return RemoveCommandResult(self, self._store, removed_contact)
 
     def map_input_to_contact(self, fields):
         return_val = True
@@ -205,29 +189,45 @@ class Remove(Command):
         return return_val
 
 
+class DirectRemove(NonUndoCommandResult):
+    def __init__(self, store, contact):
+        self._store = store
+        self._contact = contact
+        self._verb = "direct remove, not undoable"
+
+    def execute(self):
+        removed = []
+        removed_contact = self._store.remove(self._contact)
+        if removed_contact:
+            removed.append(removed_contact)
+        return [removed, self._verb]
+
+
 class RemoveCommandResult(CommandResult):
-    def __init__(self, command, store, contacts_id, contacts):
+    def __init__(self, command, store, contacts_id, contact):
         self._store = store
         self._command = command
         self._contact_id = contacts_id
-        self._can_undo = True
-        self._contacts = contacts
+        # self._can_undo = True
+        self._contact = contact
 
     def get_undo_command(self):
-        return DirectAdd(self._store, self._contacts)
+        return DirectAdd(self._store, self._contact)
 
 
 class DirectAdd(NonUndoCommandResult):
-    def __init__(self, store, contacts):
+    def __init__(self, store, contact):
         self._store = store
-        self._contacts = contacts
+        self._contact = contact
         self._verb = "add"
 
     def execute(self):
         added = []
-        for contact in self._contacts:
-            added_contact = self._store.add(contact)
-            if added_contact:
-                added.append(added_contact)
-
+        added_contact = self._store.add(self._contact)
+        if added_contact:
+            added.append(added_contact)
+        super(NonUndoCommandResult, self).__init__(self._verb, [added, self._verb])
         return [added, self._verb]
+
+# todo
+# class DirectRemove_ContactList()

@@ -444,3 +444,154 @@ root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 13
 root - INFO - input: list
 root - INFO - input: exit
 root - INFO - End session. @12:42, 3/15/9/2022
+root - INFO - Starting app. @12:50, 3/15/9/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: list
+root - INFO - input: undo
+root - INFO - Starting app. @12:51, 3/15/9/2022
+root - INFO - input: list
+root - INFO - input: add fn=David;ln=Okeke;
+root - INFO - End session. @12:52, 3/15/9/2022
+root - INFO - Starting app. @12:52, 3/15/9/2022
+root - INFO - input: add fn=David;ln=Okeke;
+root - INFO - Add: adding new contact: David,Okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: ls
+root - INFO - input: add fn=Bankol;ln=Teju;
+root - INFO - Add: adding new contact: Bankol,Teju,Nil,Nil,Nil, Nil, 2
+root - INFO - input: undo
+root - INFO - Starting app. @12:52, 3/15/9/2022
+root - INFO - input: add fn=poju;ln=ade;
+root - INFO - Add: adding new contact: poju,ade,Nil,Nil,Nil, Nil, 1
+root - INFO - input: add fn=roju;ln=bde;
+root - INFO - Add: adding new contact: roju,bde,Nil,Nil,Nil, Nil, 2
+root - INFO - input: undo
+root - INFO - Starting app. @12:55, 3/15/9/2022
+root - INFO - input: ls
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - End session. @13:0, 3/15/9/2022
+root - INFO - Starting app. @13:2, 3/15/9/2022
+root - INFO - input: add fn=david;ln=ok;
+root - INFO - Add: adding new contact: david,ok,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - End session. @13:4, 3/15/9/2022
+root - INFO - Starting app. @13:5, 3/15/9/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @7:33, 0/3/10/2022
+root - INFO - input: load file=contacts.csv
+root - CRITICAL - load file=contacts.csv
+root - INFO - End session. @7:34, 0/3/10/2022
+root - INFO - Starting app. @7:34, 0/3/10/2022
+root - INFO - input: load file=contacts.csv;
+root - INFO - Add: adding new contact: David,Okeke,Bubble Street,Underworld,Space, 1223, 1
+root - INFO - Add: adding new contact: Angelo,Michael,Room Street,Downtown,China, 865, 2
+root - INFO - Add: adding new contact: Dusty,Sammy,Tree Street,Location,Nigeria, 124, 3
+root - INFO - Add: adding new contact: Scary,Bruce,Door Street,DC,America, 78, 4
+root - INFO - Add: adding new contact: Dancing,Manuel,Hive Street,Bayern,BEE, 112, 5
+root - INFO - Add: adding new contact: Speeding,Walker,Sticks Street,Mancity,UK, 1789, 6
+root - INFO - Add: adding new contact: Dynamic,Cancelo,Heaven Street,Mancity,UK, 164, 7
+root - INFO - Add: adding new contact: Consistent,Dias,Date Street,Mancity,UK, 6746, 8
+root - INFO - Add: adding new contact: Generational,Haaland,Dine Street,Mancity,UK, 1323, 9
+root - INFO - Add: adding new contact: Magical,Aguero,Dine Street,Retired,UK, 1323, 10
+root - INFO - input: list
+root - INFO - input: add
+root - INFO - Add: adding new contact: Nil,Nil,Nil,Nil,Nil, Nil, 11
+root - INFO - input: add
+root - INFO - Add: adding new contact: Nil,Nil,Nil,Nil,Nil, Nil, 12
+root - INFO - input: undo
+root - INFO - Starting app. @8:43, 0/3/10/2022
+root - INFO - input: add fn=David;ln=Okeke;
+root - INFO - Add: adding new contact: David,Okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: list
+root - INFO - input: undo
+root - INFO - Starting app. @8:45, 0/3/10/2022
+root - INFO - input: add fn=David;ln=okeke
+root - INFO - Add: adding new contact: David,Nil,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @8:47, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @8:49, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @8:50, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @8:51, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - End session. @8:53, 0/3/10/2022
+root - INFO - Starting app. @8:53, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - End session. @8:55, 0/3/10/2022
+root - INFO - Starting app. @8:55, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @8:55, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @8:56, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Remove: Contact not found, no action taken
+root - INFO - Starting app. @9:0, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - End session. @9:0, 0/3/10/2022
+root - INFO - Starting app. @9:0, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @9:2, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - Starting app. @9:4, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - DEBUG - Remove: (david, okeke)
+root - INFO - Starting app. @9:7, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - INFO - End session. @9:8, 0/3/10/2022
+root - INFO - Starting app. @9:8, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - DEBUG - Remove: (david, okeke)
+root - INFO - End session. @9:9, 0/3/10/2022
+root - INFO - Starting app. @9:9, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - DEBUG - Remove: (david, okeke)
+root - INFO - End session. @9:12, 0/3/10/2022
+root - INFO - Starting app. @9:12, 0/3/10/2022
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 1
+root - INFO - input: undo
+root - DEBUG - Remove: (david, okeke)
+root - INFO - input: list
+root - INFO - input: add fn=david;ln=okeke;
+root - INFO - Add: adding new contact: david,okeke,Nil,Nil,Nil, Nil, 2
+root - INFO - input: list
+root - INFO - input: undo
+root - DEBUG - Remove: (david, okeke)
+root - INFO - input: list
+root - INFO - input: list
+root - INFO - End session. @9:13, 0/3/10/2022

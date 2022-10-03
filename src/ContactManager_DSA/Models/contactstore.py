@@ -47,14 +47,14 @@ class ContactStore:
         return self.add_contacts(new_contacts)
 
     def remove(self, contact):
-        if not contact:
+        if not isinstance(contact, Contact):
             logging.info("Remove: Contact not found, no action taken")
             raise ValueError
         else:
             removed_contact = self._contacts.remove(contact).getdat
             if removed_contact:
                 logging.debug(
-                    f"Remove: {removed_contact._identification} ({removed_contact._fn}, {removed_contact._ln})")
+                    f"Remove: ({removed_contact.firstname}, {removed_contact.lastname})")
                 return removed_contact
 
     def search(self, identity):

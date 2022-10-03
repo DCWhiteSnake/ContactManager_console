@@ -5,6 +5,9 @@ class Stack(Dequeue):
     def pop(self):
         return self.dequeue_head()
 
+    '''
+    value should be an undoable command
+    '''
     def push(self, value):
         self.enqueue_head(value)
 

@@ -7,24 +7,24 @@ class Dequeue(Dll):
         self.add_head(item)
 
     def enqueue_tail(self, item):
-        self.add_tail(item)
+        self.addtail(item)
 
     def dequeue_head(self):
-        value = self.get_head()
+        value = self.head
         if (value):
-            self.remove_head()
+            self.removehead()
             return value
         raise IOError
 
     def dequeue_tail(self):
-        value = self.get_tail()
+        value = self.tail
         if (value):
-            self.remove_tail()
+            self.removetail()
             return value
         raise IOError
 
     def peek_head(self):
-        return self.get_head()
+        return self.gethead()
 
     def peek_tail(self):
-        return self.get_tail()
+        return self.gettail()
